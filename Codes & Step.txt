@@ -11,15 +11,6 @@ git branch
 
 
 
-
-
-
-
-
-
-
-
-
 pip install django
 
 django-admin startproject OnilneVOte
