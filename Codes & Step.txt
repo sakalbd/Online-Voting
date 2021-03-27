@@ -1,0 +1,78 @@
+++++++++++++++++++++++++++++++++++++++++++++
+Git upload:
+
+Folder Drive e cmd open korbo
+
+git branch
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+
+
+
+
+
+
+
+
+pip install django
+
+django-admin startproject OnilneVOte
+
+    ekane jor kore file change korcilam
+
+python manage.py startapp Test1
+
+python manage.py runserver
+
+    Amra ekjane url r vews niye first e kaz koram
+
+Admin e dhuka:
+    url/admin
+
+url er vitor page er hisab e path korbo. eklta code likbo:
+        from Test1 import views as Tviews
+
+ebar test1 viewas er vitore: (1st line)
+    from  django.http import HttpResponse
+
+esob kisu korara por sob kisu bad, amra new vabe kaz korbo, tar jonni
+Templates name directory korbo
+    etar vitor projon onusare amra Sub directory kulbo,
+        html file banay nibo [home.html]
+
+    test views er vitor views e jabo r amra render korbo. [test/home.html]
+    setting er vitor Tempalstes  DIRS = Tempalstes kora lagbe.
+
+
+eabr amra url subdirectory er theke anboo:
+    url e includes import korbooo. abar prooket app er under e urls.puy add korboo. ekane patten copy korbo.
+
+    from . import views [current folder er vitor kahani]
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Admin part:
+
+python manage.py makemigrations
+    model er vitor kothao change ase kina deke.
+
+python manage.py migrate
+    login korar jonni ja ja lage tai kore dibe
+
+python manage.py createsuperuser
+    ekta powerfull user kore dibe
+
++++++++++++++_______________________+++++++++++++++++++_______---------
+
+Username (leave blank to use 'sakal'): sakal
+Email address: 18201007@uap-bd.edu
+Password: Sakal12345
+
+U: maliha
+P: Sakal12345
