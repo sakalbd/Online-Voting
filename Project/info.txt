@@ -1,0 +1,19 @@
+admin:
+
+python manage.py makemigrations
+
+python manage.py migrate
+
+python manage.py createsuperuser
+
+
+-----------------------------------
+
+
+pip install Django
+
+pip install django-crispy-forms
+
+pip install pandas
+
+

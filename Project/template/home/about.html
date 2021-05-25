@@ -1,0 +1,46 @@
+{% extends 'home/base.html' %}
+{% load static %}
+
+{% block title %}About info{% endblock title %}
+
+{% block about %}
+
+<div class="member1">
+            <div class="header color">About for first member</div>
+            <hr>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="{% static 'images/Sakal_sqr.jpg' %}" alt="Sakal Sarkar" width="450" height="300">>
+                </div>
+                <div class="col-md-6">
+                    <p>
+                        <span>"</span>Hello! I'm Sakal Sarkar. I am form Satkhira, khulna, Bangladesh. I'm currently a student at the University of Asia Pacific in the CSE department. <span>"</span>
+                    </p>
+                    <a href="http://portfolio.sakalbd.net/" target="_blank" class="btn btn-outline-primary">Profile</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="member2">
+            <br>
+            <div class="header color">About for Second member</div>
+            <hr>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="{% static 'images/maliha.jpg' %}" alt="Maliha">
+                </div>
+                <div class="col-md-6">
+                    <p>
+                        <span>"</span>Hello! I'm Maliha Zaman. I'm form Dhanmondhi-10, Dhaka. I'm currently a student at the University of Asia Pacific in the CSE department. I'm a web design, a programmer, and a UI/UX designer.<span>"</span>
+                    </p>
+
+                    <a href="https://www.facebook.com/mou.maliha.9/" target="_blank" class="btn btn-outline-primary">Profile</a>
+                </div>
+            </div>
+
+            <br>
+        </div>
+
+
+
+{% endblock about %}
