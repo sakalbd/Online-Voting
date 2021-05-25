@@ -17,3 +17,12 @@ pip install django-crispy-forms
 pip install pandas
 
 
+-----------------------
+
+git status
+
+git add .
+
+git commit –m
+
+git push
