@@ -1,0 +1,36 @@
+admin:
+
+python manage.py makemigrations
+
+python manage.py migrate
+
+python manage.py createsuperuser
+
+
+-----------------------------------
+
+
+pip install Django
+
+pip install django-crispy-forms
+
+pip install pandas
+
+
+-----------------------
+
+git status
+
+git add .
+
+git commit –m
+
+git push all
+
+---------------------------------
+user id		password
+
+chiefec		0122
+sakal07		asd012234
+masnun		Sakal12345
+
